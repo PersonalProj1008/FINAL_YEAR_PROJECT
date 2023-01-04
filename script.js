@@ -181,6 +181,11 @@ let c=document.getElementById("blockladdopBURL_um").children[2].getElementsByTag
 let d=document.getElementById("blockladdopBURL_um").children[3].getElementsByTagName("select")[0].value;
 let e=document.getElementById("blockladdopBURL_um").children[4].getElementsByTagName("select")[0].value;
 let f=document.getElementById("blockladdopBURL_um").children[5].getElementsByTagName("select")[0].value;
+document.getElementById(current_Selected).style.background="url("+a+")";
+document.getElementById(current_Selected).style.backgroundPosition=b;
+document.getElementById(current_Selected).style.backgroundRepeat=c;
+document.getElementById(current_Selected).style.backgroundAttachment=d;
+document.getElementById(current_Selected).style.backgroundClip=e;
 if(document.getElementById("lengBS_OF").style.display=="flex"){
 let g=document.getElementById("blockladdopBURL_um").children[6].getElementsByTagName("input")[0].value+"% "+document.getElementById("blockladdopBURL_um").children[6].getElementsByTagName("input")[1].value+"%";
 document.getElementById(current_Selected).style.backgroundSize=g;
@@ -189,11 +194,6 @@ else{
 document.getElementById(current_Selected).style.backgroundSize=f;
 console.log(document.getElementById(current_Selected).style.backgroundSize,"-----------------------size");
 }
-document.getElementById(current_Selected).style.background="url("+a+")";
-document.getElementById(current_Selected).style.backgroundPosition=b;
-document.getElementById(current_Selected).style.backgroundRepeat=c;
-document.getElementById(current_Selected).style.backgroundAttachment=d;
-document.getElementById(current_Selected).style.backgroundClip=e;
 
 }
 	
@@ -207,6 +207,11 @@ let c=document.getElementById("blockladdopBURL_um").children[2].getElementsByTag
 let d=document.getElementById("blockladdopBURL_um").children[3].getElementsByTagName("select")[0].value;
 let e=document.getElementById("blockladdopBURL_um").children[4].getElementsByTagName("select")[0].value;
 let f=document.getElementById("blockladdopBURL_um").children[5].getElementsByTagName("select")[0].value;
+document.getElementById(RolDalh_umvar).style.background="url("+a+")";
+document.getElementById(RolDalh_umvar).style.backgroundPosition=b;
+document.getElementById(RolDalh_umvar).style.backgroundRepeat=c;
+document.getElementById(RolDalh_umvar).style.backgroundAttachment=d;
+document.getElementById(RolDalh_umvar).style.backgroundClip=e;
 if(document.getElementById("lengBS_OF").style.display=="flex"){
 let g=document.getElementById("blockladdopBURL_um").children[6].getElementsByTagName("input")[0].value+"% "+document.getElementById("blockladdopBURL_um").children[6].getElementsByTagName("input")[1].value+"%";
 document.getElementById(RolDalh_umvar).style.backgroundSize=g;
@@ -215,11 +220,6 @@ else{
 document.getElementById(RolDalh_umvar).style.backgroundSize=f;
 console.log(document.getElementById(RolDalh_umvar).style.backgroundSize,"-----------------------size");
 }
-document.getElementById(RolDalh_umvar).style.background="url("+a+")";
-document.getElementById(RolDalh_umvar).style.backgroundPosition=b;
-document.getElementById(RolDalh_umvar).style.backgroundRepeat=c;
-document.getElementById(RolDalh_umvar).style.backgroundAttachment=d;
-document.getElementById(RolDalh_umvar).style.backgroundClip=e;
 
 }
   function changeDumy_um(e){
