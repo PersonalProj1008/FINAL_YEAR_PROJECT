@@ -417,7 +417,7 @@ function fforCi_um(a){
               Fsyn="#b0Dy{\nwidth:100%;\nheight:100%;\noverflow:hidden;\ndisplay:flex;\njustify-content:center;\nalign-items:center;\nalign-content:center;\n"+aD+"}\n"+Fsyn;
                 
               }else{
-                Fsyn="#b0Dy{\nwidth:100%;\nheight:100%;\noverflow:hidden;\ndisplay:flex;\njustify-content:center;\nalign-items:center;\nalign-content:center;\n}\n"+Fsyn;
+                Fsyn="#b0Dy{\nwidth:100%;\nheight:100%;\noverflow:hidden;\ndisplay:flex;\nflex-direction:column;\njustify-content:center;\nalign-items:center;\nalign-content:center;\n}\n"+Fsyn;
               }
               Fsyn="*{\npadding:0%;\nmargin:0%;\nbox-sizing:border-box;\n}\nbody{\nwidth:100vw;\nheight:100vh;\n}\n"+Fsyn;
               
